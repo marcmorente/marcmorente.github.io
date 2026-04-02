@@ -4,8 +4,7 @@ url: "https://marcmorente.github.io"
 
 theme: minima
 
-minima:
-  skin: classic
+header_pages: []
 
 show_excerpts: true
 
