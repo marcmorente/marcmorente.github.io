@@ -1,0 +1,15 @@
+title: Marc Morente
+description: Writing about software, people, and ideas.
+url: "https://marcmorente.github.io"
+
+theme: minima
+
+minima:
+  skin: classic
+
+show_excerpts: true
+
+permalink: /:title/
+
+plugins:
+  - jekyll-feed
