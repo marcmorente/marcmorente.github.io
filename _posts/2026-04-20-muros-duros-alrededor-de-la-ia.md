@@ -83,7 +83,7 @@ El código de tests **es** el muro. Si se desmorona, el muro se cae aunque desde
 
 Si los tests son el muro, la arquitectura es el plano de la ciudad. Un *dependency checker* traza líneas que dicen: *por aquí no se pasa*. El `Domain` no habla con `Infrastructure`, la UI no llama a Doctrine directamente, un *bounded context* no se cuela en otro. Si un archivo cruza una línea, la build se cae. Esto tiene nombre propio: son [*architecture fitness functions*](https://www.infoq.com/articles/fitness-functions-architecture/), esa idea que lleva años circulando de que la arquitectura debe poder comprobarse en cada commit, no contemplarse en un diagrama de la sala de reuniones.
 
-En PHP las dos herramientas de referencia son [Deptrac](https://qossmic.github.io/deptrac/) y [PHPat](https://github.com/carlosas/phpat):
+En PHP las dos herramientas de referencia son [Deptrac](https://deptrac.github.io/deptrac/) y [PHPat](https://github.com/carlosas/phpat):
 
 ```bash
 vendor/bin/deptrac analyse
