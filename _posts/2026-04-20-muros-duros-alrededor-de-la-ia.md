@@ -37,7 +37,7 @@ Usadas juntas, CRAP e Infection empujan el código hacia el mismo lugar: funcion
 ---
 
 ## Gherkin: el contrato firmado antes de la obra
-
+na imagen me ayuda: l
 Los tests de aceptación no examinan piezas sueltas; contemplan el sistema completo desde la mirada del usuario. Gherkin es su lenguaje claro, con esa cadencia casi litúrgica de `Given / When / Then`:
 
 ```gherkin
@@ -121,7 +121,7 @@ Las *soft tools* son un vigilante nocturno con linterna; las *hard tools*, un ce
 
 Cada excepción parece barata en el momento. El problema es que **debilita el sistema entero**: un muro con una puerta abierta deja de ser un muro y pasa a ser una invitación.
 
-El patrón que he aprendido a detectar es casi literario. Cuando la IA propone «relajar temporalmente» una regla para terminar la tarea, la tarea no está terminada: está mal planteada, o la regla estaba mal calibrada. Nunca hay una tercera opción, por muy bien redactada que venga la sugerencia.
+Cuando la IA sugiere «relajar temporalmente» una regla para que algo pase, trátalo como una señal: revisa el enunciado y la regla. Casi siempre la tarea está mal planteada, la regla está mal calibrada, o ambas; no se arregla con parches.
 
 ---
 
@@ -144,4 +144,4 @@ Cuando alguien presume de haber multiplicado su velocidad con IA, la pregunta ú
 
 El humano pasa de **encargado de obra** a **arquitecto**, y también a **autor de los `.feature`**. La IA es el obrero infatigable cercado por métricas duras. Es un papel menos vistoso —nadie celebra la PR que sube el MSI del 78% al 82%—, pero es el único que escala.
 
-Si los muros ceden, el paradigma entero se cae. Y con él la promesa de productividad que justificaba, en primer lugar, entregarle el teclado a la máquina.
+Si los muros ceden, el paradigma entero se desmorona; con él desaparece la promesa de productividad que, en primer lugar, justificó entregarle el teclado a la máquina.
