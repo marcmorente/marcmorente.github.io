@@ -41,13 +41,13 @@ Usadas juntas, CRAP e Infection empujan el código hacia el mismo lugar: funcion
 Los tests de aceptación no examinan piezas sueltas; contemplan el sistema completo desde la mirada del usuario. Gherkin es su lenguaje claro, con esa cadencia casi litúrgica de `Given / When / Then`:
 
 ```gherkin
-Feature: Crear tarea de acceso para estudiantes
+Feature: Create access assignment for students
 
-  Scenario: Un profesor crea una tarea con fecha límite válida
-    Given estoy autenticado como profesor
-    When creo una tarea con fecha límite mañana
-    Then la tarea queda guardada
-    And los estudiantes pueden verla
+  Scenario: A teacher creates an assignment with a valid deadline
+    Given I am authenticated as a teacher
+    When I create an assignment with a deadline of tomorrow
+    Then the assignment is saved
+    And the students can see it
 ```
 
 En PHP/Symfony los ejecuta Behat. Pero la sintaxis es lo de menos. Lo importante es **quién tiene las llaves del archivo**. La investigación reciente muestra que los LLMs [escriben Gherkin con sorprendente soltura, pero también con omisiones y alucinaciones](https://arxiv.org/abs/2508.20744) que un humano debe revisar sí o sí. En dominios sensibles es directamente peligroso dejar que el modelo redacte el contrato que después va a cumplir. Es como pedirle al contratista que escriba también el pliego de condiciones.
