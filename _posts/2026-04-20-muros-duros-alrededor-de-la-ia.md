@@ -106,7 +106,7 @@ La distinción que quiero defender es ésta: una herramienta **dura** emite verd
 
 Con IA **solo las duras escalan**. Las blandas dependen de atención humana, y esa atención es justo el recurso que la IA agota primero. A partir de cierto volumen, revisar ladrillo a ladrillo es imposible; mantener los muros en pie, no.
 
-Una imagen me ayuda: las *soft tools* son un vigilante nocturno con linterna; las *hard tools*, un cerco electrificado. El vigilante es útil mientras la finca sea pequeña. Cuando la finca crece de golpe, no puedes poner un vigilante por hectárea; tienes que poner vallas.
+Las *soft tools* son un vigilante nocturno con linterna; las *hard tools*, un cerco electrificado. El vigilante es útil mientras la finca sea pequeña. Cuando la finca crece de golpe, no puedes poner un vigilante por hectárea; tienes que poner vallas.
 
 ---
 
